@@ -24,8 +24,8 @@ const CategoryForm = ({ setCategories }) => {
     };
     setCategories((prevState) => [...prevState, newCategory]);
     setCategoryForm({
-      category_title: "",
-      category_description: "",
+      title: "",
+      description: "",
     });
   };
 
